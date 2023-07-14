@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                border: 1px solid blue;
+                display: flex;
+                justify-content: center;
+                justify-content: space-around;
+                align-items:center;
+            }
+
+            li{
+                height: 200px;
+                width: 200px;
+              
+                border: 1px solid red;
+                margin:0.5em;
+                padding:0.5em;
+            }
+
+            .first{
+                order:1;
+            }
+
+            .second{
+                order:2;
+            }
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li class="first">1st</li>
+            <li class="second">2nd</li>
+            <li>3rd</li>
+        </ul>
+
+    </body>
+</html>
